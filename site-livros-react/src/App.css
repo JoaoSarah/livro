@@ -1,0 +1,60 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #3a3a8f;
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.menu li a:hover {
+  opacity: 0.7;
+}
+
+/* Banner */
+.banner img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* Introdução */
+.intro {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro h2 {
+  color: #3a3a8f;
+}
